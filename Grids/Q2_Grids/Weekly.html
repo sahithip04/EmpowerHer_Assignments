@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+
+    <style>
+        body{
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+            background: white;
+            padding: 20px;
+        }
+
+        .wrapper{
+            width: 950px;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 120px repeat(5, 1fr);
+            gap: 12px;
+        }
+        .time{
+            background: rgb(197, 238, 252);
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+        .cell{
+            height: 45px;
+            background: rgb(252, 223, 228);
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .yelow, .pink{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .yellow{
+            background: rgb(248, 248, 148);
+        
+        }
+        .pink{
+            background: rgb(252, 223, 228);
+        }
+        .day-monday{
+            background: rgb(252, 223, 228);
+        }
+        .day-tuesday{
+            background: rgb(248, 248, 148);
+        }
+        .day-wednesday{
+            background: rgb(252, 223, 228); 
+        }
+        .day-thursday{
+            background: rgb(248, 248, 148);
+        }
+        .day-friday{
+            background: rgb(252, 223, 228);
+        }
+
+        .day{
+            text-align: center;
+            padding:  0;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 45px;
+        }
+
+        .note{
+            margin-top: 20px;
+            background: #b5e9ff;
+            padding: 12px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <h1>Weekly schedule</h1>
+
+    <div class="grid">
+        <div></div>
+        <div class="day day-monday">Monday</div>
+        <div class="day day-tuesday">Tuesday</div>
+        <div class="day day-wednesday">Wednesday</div>
+        <div class="day day-thursday">Thursday</div>
+        <div class="day day-friday">Friday</div>
+
+        <div class="time">08:00</div>
+        <div class="cell">Assembly</div>
+        <div class="cell yellow">Assembly</div>
+        <div class="cell">Assembly</div>
+        <div class="cell yellow">Assembly</div>
+        <div class="cell pink">Assembly</div>
+
+        <div class="time">09:00</div>
+        <div class="cell">English</div>
+        <div class="cell yellow">Math</div>
+        <div class="cell">Rhymes</div>
+        <div class="cell yellow">EVS</div>
+        <div class="cell pink">English</div>
+
+        <div class="time">10:00</div>
+        <div class="cell">Math</div>
+        <div class="cell yellow">EVS</div>
+        <div class="cell">English</div>
+        <div class="cell yellow">Math</div>
+        <div class="cell pink">EVS</div>
+
+        <div class="time">11:00</div>
+        <div class="cell">Drawing</div>
+        <div class="cell yellow">Handwriting</div>
+        <div class="cell">Story Time</div>
+        <div class="cell yellow">Craft</div>
+        <div class="cell pink">Rhymes</div>
+
+        <div class="time">12:00</div>
+        <div class="cell">Lunch Break</div>
+        <div class="cell yellow">Lunch Break</div>
+        <div class="cell">Lunch Break</div>
+        <div class="cell yellow">Lunch Break</div>
+        <div class="cell pink">Lunch Break</div>
+
+        <div class="time">13:00</div>
+        <div class="cell">EVS</div>
+        <div class="cell yellow">English</div>
+        <div class="cell">Math</div>
+        <div class="cell yellow">Rhymes</div>
+        <div class="cell pink">GK</div>
+
+        <div class="time">14:00</div>
+        <div class="cell">PT</div>
+        <div class="cell yellow">Games</div>
+        <div class="cell">PT</div>
+        <div class="cell yellow">GK</div>
+        <div class="cell pink">PT</div>
+
+        <div class="time">15:00</div>
+        <div class="cell">Science</div>
+        <div class="cell yellow">Story time</div>
+        <div class="cell">Craft</div>
+        <div class="cell yellow">Handwriting</div>
+        <div class="cell pink">Drawing</div>
+
+        <div class="time">16:00</div>
+        <div class="cell">Revision</div>
+        <div class="cell yellow">reading Time</div>
+        <div class="cell">Liesure</div>
+        <div class="cell yellow">Revision</div>
+        <div class="cell pink">Homework Prep</div>
+
+    </div>
+
+    <div class="note"><strong>Note:</strong> Bring all Notebooks.</div>
+
+</div>
+
+</body>
+</html>
